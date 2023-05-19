@@ -1,14 +1,15 @@
-# TASK
+# CV Profile Page
 
-#### Create a Google App Engine Python Project with your CV as the main page. Check-in the code to Github and send us a link to the repo to dev@quicklysign.com 
+### A Simple Static Web page that Hosts my CV
 
+This app is deployed using Google App Engine.
 
-## TODO
+### TODO
 
- - add a PDF Download Option
- - add a markdown view
- - DEFINITELY - add html view
- - add a bootstrap view
- - add a contact form
- - add a view counter
- - MAYBE - any visualisations would probably be a bonus, like a graph that shows experience in specific frameworks
+- [X] add html bootstrap view
+- [] add a PDF Download Option
+- [] add a markdown view
+- [] add a contact form
+- [] add a visit counter
+- [] Add a database and migrate json template data
+- [] API for updating profile and getting view counts
