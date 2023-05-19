@@ -1,0 +1,17 @@
+<section class="resume-section" id="education">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+        {% for school in Education %}
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">{{ school.Name }}</h3>
+                    <div class="subheading mb-3">{{ school.Acheived }}</div>
+                    {% if school.Description %}
+                        <div>{{ school.Description }}</div>
+                    {% endif %}
+                </div>
+                <div class="flex-shrink-0"><span class="text-dark">{{ school.Graduated }}</span></div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

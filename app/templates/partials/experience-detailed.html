@@ -1,0 +1,22 @@
+<section class="resume-section" id="exp_detail">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Detailed Experience</h2>
+        {% for exp in WorkExperience %}
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">{{ exp.Position }}</h3>
+                    <div class="subheading mb-3">{{ exp.Company }} | <span>{{ exp.Duration }}</span> </div>
+                    <p class="mb-0">{{ exp.Description }}</p>
+                    <br>
+                    <ul>
+                        {% for task in exp.Accomplishments %}
+                            <li>{{ task }}</li>
+                            <br>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- <div class="flex-shrink-0"><span class="text-dark">{{ exp.Duration }}</span></div> -->
+            </div>
+        {% endfor %}
+    </div>
+</section>
