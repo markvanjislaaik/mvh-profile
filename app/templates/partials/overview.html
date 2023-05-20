@@ -3,6 +3,7 @@
         <h1 class="mb-0">
             {{ NameFirst }}
             <span class="text-dark">{{ NameLast }}</span>
+            <a class="download-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down"></i></a>
         </h1>
         <div class="subheading mb-5">
             {{ Location }}
@@ -15,7 +16,13 @@
             <a class="social-icon" href="{{ Socials.GitHub }}"><i class="fab fa-github"></i></a>
             <a class="social-icon" href="{{ Socials.Twitter }}"><i class="fab fa-twitter"></i></a>
             <a class="social-icon" href="{{ Socials.Facebook }}"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down">Download CV</i></a>
             <!-- <a class="social-icon" href="{{ Socials.Instagram }}"><i class="fab fa-instagram"></i></a> -->
+        </div>
+
+        <!-- div with a button that links to the download_pdf route -->
+        <div class="download-resume">
+            <!-- <a class="btn btn-primary btn-lg" href="{{ url_for('download_pdf') }}" role="button">Download CV</a> -->
         </div>
     </div>
 </section>

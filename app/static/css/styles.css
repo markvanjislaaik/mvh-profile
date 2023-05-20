@@ -6,6 +6,7 @@
     --bs-secondary: #6c757d;
     --bs-link-color: #00ad96;
     --bs-link-hover-color: #00dbbe;
+    --bs-icon-font-color: #00ffdd;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -205,7 +206,7 @@ p.lead {
     height: 3.5rem;
     width: 3.5rem;
     background-color: #495057;
-    color: #fff;
+    color: var(--bs-icon-font-color);
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
@@ -216,6 +217,27 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
+    background-color: var(--bs-link-color);
+}
+
+.download-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #495057;
+    color: var(--bs-icon-font-color);
+    border-radius: 100%;
+    font-size: 2.5rem;
+    /* margin-right: 4.5rem; */
+}
+
+.download-icon:last-child {
+    margin-right: 0;
+}
+
+.download-icon:hover {
     background-color: var(--bs-link-color);
 }
 
