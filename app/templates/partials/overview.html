@@ -3,12 +3,11 @@
         <h1 class="mb-0">
             {{ NameFirst }}
             <span class="text-dark">{{ NameLast }}</span>
-            <a class="download-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down"></i></a>
         </h1>
         <div class="subheading mb-5">
             {{ Location }}
             <br>{{ Phone }}
-            <br><a href="mailto:{{ Email }}">{{ Email }}</a>
+            <!-- <br><a href="mailto:{{ Email }}">{{ Email }}</a> | <a class="download-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down"></i></a> -->
         </div>
         <p class="lead mb-5">{{ Overview }}</p>
         <div class="social-icons">
@@ -20,9 +19,5 @@
             <!-- <a class="social-icon" href="{{ Socials.Instagram }}"><i class="fab fa-instagram"></i></a> -->
         </div>
 
-        <!-- div with a button that links to the download_pdf route -->
-        <div class="download-resume">
-            <!-- <a class="btn btn-primary btn-lg" href="{{ url_for('download_pdf') }}" role="button">Download CV</a> -->
-        </div>
     </div>
 </section>

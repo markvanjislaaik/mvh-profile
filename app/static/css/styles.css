@@ -230,7 +230,6 @@ p.lead {
     color: var(--bs-icon-font-color);
     border-radius: 100%;
     font-size: 2.5rem;
-    /* margin-right: 4.5rem; */
 }
 
 .download-icon:last-child {
