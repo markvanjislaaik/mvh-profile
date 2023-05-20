@@ -4,5 +4,6 @@ entrypoint: gunicorn -b :$PORT run:app
 handlers:
 - url: /static
   static_dir: app/static
+  expiration: '10s'
 - url: /.*
   script: auto
