@@ -9,4 +9,17 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
+    function toggleView() {
+        var icons = document.getElementById("dev-icons");
+        var text = document.getElementById("dev-text");
+    
+        if (icons.style.display === "none") {
+          icons.style.display = "flex";
+          text.style.display = "none";
+        } else {
+          icons.style.display = "none";
+          text.style.display = "block";
+        }
+      };
+
 });

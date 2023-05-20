@@ -2,20 +2,42 @@
     <div class="resume-section-content">
         <h2 class="mb-5">Experience</h2>
         {% for exp in WorkExperience %}
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h3 class="mb-0">{{ exp.Position }}</h3>
-                    <div class="subheading mb-3">{{ exp.Company }} | <span>{{ exp.Duration }}</span> </div>
-                    <p class="mb-0">{{ exp.Description }}</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ exp.Position }}</h3>
+                <div class="subheading mb-3">{{ exp.Company }} | <span>{{ exp.Duration }}</span> </div>
+                <p class="mb-0">{{ exp.Description }}</p>
+                <br>
+                {% if exp.Accomplishments %}
+                <ul>
+                    {% for task in exp.Accomplishments %}
+                        <li class="line-spacing">{{ task }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if exp.Projects %}
+                <ul>
+                    {% for project in exp.Projects %}
+
+                    <div class="custom-card" style="width: 35rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">{{ project.Name }}</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">{{ project.Type }} | {{ project.Year }}</h5>
+                            <ul class="custom-list">
+                                {% for role in project.Roles %}
+                                <li class="card-text">{{ role }}</li>
+                                {% endfor %}
+                            </ul>
+
+                        </div>
+                    </div>
+
                     <br>
-                    <ul>
-                        {% for task in exp.Accomplishments %}
-                            <li>{{ task }}</li>
-                            <br>
-                        {% endfor %}
-                    </ul>
-                </div>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </div>
+        </div>
         {% endfor %}
     </div>
 </section>

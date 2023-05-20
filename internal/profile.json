@@ -17,82 +17,107 @@
             "Facebook": "https://www.facebook.com/markvanjislaaik",
             "Instagram": "#!"
     },
-    "Overview": "A passionate tinkerer with a positive \"can-do\" attitude.",
+    "TagLine": "A passionate tinkerer with a positive \"can-do\" attitude.",
     "AboutMe": [
-        "I am looking for an intermediate backend software development role at a small to medium-sized company with experienced and supportive professionals from diverse backgrounds.",
-        "My expertise lies in working with Python, MySQL and building REST APIs using Flask and Django. I am a fast learning and modest self-starter who is eager to get involved with various technologies that will enable me to contribute to other areas such as DevOps, Frontend Development, Data Science and Full Stack.",
         "As a self-taught programmer with over 6 years of professional experience, I got my start in the industry by automating basic file operations for a television production company.",
         "Since then, as a passionate tinkerer with a positive \"can-do\" attitude, I've worked on a variety of projects including audio fingerprinting and detection for radio and TV stations, image recognition for finding logos and patterns on live TV to most recently identifying and fulfilling a critical business need within our organization to develop and maintain our own file upload portal. This allowed the business to cut costs dramatically for the submission of Radio & TV adverts to local broadcasters.",
+        "My expertise lies in working with Python, MySQL and building REST APIs using Flask and Django. I am a fast learning and modest self-starter who is eager to get involved with various technologies that will enable me to contribute to other areas such as DevOps, Frontend Development, Data Science and Full Stack.",
         "I am a team player and enjoy mentoring my junior colleagues, helping them find their strengths and motivating them to take charge of their own skills development. I'm also a hard worker, easy going and a nice guy to have around.",
-        "With a well-rounded knowledge and experience of IT and programming workflows, I am confident that I can bring invaluable growth to any team and make a significant contribution to the company's success."
+        "With a well-rounded knowledge and experience in IT and programming workflows, I am confident that I can bring invaluable growth to any team and make a significant contribution to the company's success.",
+        "I am looking for an intermediate backend software development role at a small to medium-sized company with experienced and supportive professionals from diverse backgrounds."
     ],
-    "Interests": [
-        "Programming",
+    "Interests1": [
+        "Computer Programming",
         "Automation",
-        "Movies",
-        "TV Series",
-        "Gaming",
-        "Music",
+        "DIY",
+        "Electronics",
+        "Quiz Nights!"
+    ],
+    "Interests2": [
         "Cycling",
         "Gym",
         "Hiking",
         "Gardening",
-        "DIY",
-        "Electronics",
-        "Quiz Nights!",
-        "My Cats"
+        "Cats"
     ],
-    "Skills": [
-        "Python",
-        "Django",
-        "Flask",
-        "SQL"
+    "Interests3": [
+        "Real Estate",
+        "Movies & TV Series",
+        "Gaming",
+        "Music",
+        "Astronomy"
     ],
-    "TechSkills": [
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg", "Name": "Python"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg", "Name": "HTML5"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg", "Name": "Bash"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg", "Name": "Markdown"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg", "Name": "Bootstrap"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", "Name": "MySQL"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg", "Name": "MongoDB"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlalchemy/sqlalchemy-original.svg", "Name": "SQL Alchemy"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg", "Name": "SQLite"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg", "Name": "Pandas"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg", "Name": "Django"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg", "Name": "Flask"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg", "Name": "Selenium"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg", "Name": "Git"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg", "Name": "Github"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg", "Name": "Bit Bucket"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg", "Name": "AWS"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg", "Name": "Linux"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg", "Name": "Ubuntu Linux"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg", "Name": "Docker"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ssh/ssh-original.svg", "Name": "SSH"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg", "Name": "OpenCV"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg", "Name": "VS Code"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg", "Name": "Visual Studio"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", "Name": "JavaScript"},
-        {"SvgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg", "Name": "C#"}
+    "SkillsOverview": [
+        "I'm most comfortable working with Python, MySQL, Django and Flask and I work frequently with many other backend technologies.",
+        "I taught myself C# in less than a month in order to help on additional projects with a development team we acquired during a merger.",
+        "I'm keen on learning Java next and would also like to get involved in Android development in the near future."
+    ],
+    "SvgBaseUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/",
+    "TechSkillsLangs": [
+        {"SvgPath": "python/python-original-wordmark.svg", "Name": "Python"},
+        {"SvgPath": "html5/html5-original-wordmark.svg", "Name": "HTML5"},
+        {"SvgPath": "markdown/markdown-original.svg", "Name": "Markdown"},
+        {"SvgPath": "bootstrap/bootstrap-original-wordmark.svg", "Name": "Bootstrap"},
+        {"SvgPath": "javascript/javascript-original.svg", "Name": "JavaScript"},
+        {"SvgPath": "csharp/csharp-line.svg", "Name": "C#"}
+    ],
+    "TechSkillsDB": [
+        {"SvgPath": "mysql/mysql-original-wordmark.svg", "Name": "MySQL"},
+        {"SvgPath": "mongodb/mongodb-original-wordmark.svg", "Name": "MongoDB"},
+        {"SvgPath": "sqlalchemy/sqlalchemy-original-wordmark.svg", "Name": "SQL Alchemy"},
+        {"SvgPath": "sqlite/sqlite-original-wordmark.svg", "Name": "SQLite"},
+        {"SvgPath": "pandas/pandas-original-wordmark.svg", "Name": "Pandas"}
+    ],
+    "TechSkillsFrameWorks": [
+        {"SvgPath": "django/django-plain-wordmark.svg", "Name": "Django"},
+        {"SvgPath": "flask/flask-original-wordmark.svg", "Name": "Flask"},
+        {"SvgPath": "selenium/selenium-original.svg", "Name": "Selenium"},
+        {"SvgPath": "./static/icons/streamlit-logo-primary-colormark-darktext.svg", "Name": "Streamlit"}
+    ],
+    "TechSkillsGit": [
+        {"SvgPath": "git/git-original.svg", "Name": "Git"},
+        {"SvgPath": "github/github-original-wordmark.svg", "Name": "Github"},
+        {"SvgPath": "bitbucket/bitbucket-original-wordmark.svg", "Name": "Bit Bucket"}
+    ],
+    "TechSkillsCloud": [
+        {"SvgPath": "amazonwebservices/amazonwebservices-plain-wordmark.svg", "Name": "AWS"},
+        {"SvgPath": "googlecloud/googlecloud-original-wordmark.svg", "Name": "Google Cloud"}
+    ],
+    "TechSkillsTools": [
+        {"SvgPath": "linux/linux-original.svg", "Name": "Linux"},
+        {"SvgPath": "ubuntu/ubuntu-plain-wordmark.svg", "Name": "Ubuntu Linux"},
+        {"SvgPath": "bash/bash-original.svg", "Name": "Bash"},
+        {"SvgPath": "docker/docker-original-wordmark.svg", "Name": "Docker"},
+        {"SvgPath": "ssh/ssh-original-wordmark.svg", "Name": "SSH"},
+        {"SvgPath": "opencv/opencv-original-wordmark.svg", "Name": "OpenCV"},
+        {"SvgPath": "vscode/vscode-original-wordmark.svg", "Name": "VS Code"},
+        {"SvgPath": "visualstudio/visualstudio-plain.svg", "Name": "Visual Studio"},
+        {"SvgPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/FFmpeg_icon.svg/64px-FFmpeg_icon.svg.png?20130721172940", "Name": "FFmpeg"}
     ],
     "CoreSkills": [
-        "Communication",
-        "Leadership",
-        "Coaching ",
-        "Mentoring ",
-        "Team Player ",
-        "Critical Thinking ",
-        "Problem Solving ",
-        "Debugging ",
-        "Code/Peer Review"
+        "Clear & Effective Communication",
+        "Coaching, Leadership & Mentorship",
+        "Team Player",
+        "Critical & Analytical Thinking, Problem Solving, Debugging",
+        "Code/Peer Review",
+        "Self-Starter, Fast Learner, Self-Motivated",
+        "Attention to Detail",
+        "Adaptable & Flexible"
+    ],
+    "WhatIBring": [
+        "Self-direction, motivation, and experience as both a team player and leader.",
+        "A passion for problem solving and finding solutions to complex problems.",
+        "A human-shaped \"Sounding Board\" that can take ideas from ambiguous to actionable.",
+        "The ability to work independently or as part of a team.",
+        "Curiosity and willingness to learn and grow.",
+        "Identification and implementation of process improvements."
     ],
     "Education": [
         {
             "Name": "AFDA Johannesburg",
             "Acheived": "BA. Motion Picture",
             "Graduated": "2010",
-            "Description": "I studied Motion Picture at AFDA Johannesburg. I majored in Editing and Cinematography and also took courses in Visual Effects and Sound Design."
+            "Description": "I studied Motion Picture at AFDA Johannesburg, majored in Editing and Cinematography and also took courses in Visual Effects and Sound Design."
         },
         {
             "Name": "Allen Glen High School",
@@ -107,18 +132,18 @@
             "CompanyWebsite": "https://www.mediahost.co.za/",
             "Position": "Software Developer",
             "Duration": "Sept 2016 - Present",
-            "Description": "As a software developer my role is to find programmatic solutions for new products in the business as well as any new or existing problems that arise. Also stay up to date with the latest in trends in tech and ensure all processes are running optimally.",
+            "Description": "As a software developer my role is to find programmatic solutions for new products in the business as well as any new or existing problems that arise. I also stay up to date with the latest trends in tech and ensure all processes are running optimally.",
             "Accomplishments": [
                 "Developed a file upload portal with Django to enable customers to upload multiple large files intended for delivery to TV and Radio stations.",
-                "Audio fingerprinting and recognition for real time advertising and music tracking on all Radio & TV stations in South Africa using ACRCloud.",
+                "Audio fingerprinting and recognition for real-time advertising and music tracking on all Radio & TV stations in South Africa using ACR Cloud.",
                 "Local Radio & TV station recording and stability testing to enable audience measurement for Ipsos / Intrasonics (UK based).",
-                "Created automated Data Acquisition, Transformation and Cleaning workflows using Web Scraping, REST APIs and File Based ingestion (Excel, CSV, PDF etc.)",
+                "Automated Data Acquisition, Transformation and Cleaning workflows using Web Scraping, REST APIs and File Based ingestion (Excel, CSV, PDF etc.)",
                 "Analyze large datasets using SQL, Pandas and visualization libraries to identify trends and patterns. This involves developing and maintaining complex SQL queries to extract data from various sources.",
                 "Image Recognition and Template Matching for secondary event advertising such as L-boards, Lower Thirds etc. with Computer Vision (OpenCV)",
                 "Developed REST APIs for use in various applications to enable the business to share and receive data as well as re-use core functionality across multiple systems and platforms.",
                 "Automated S3 Transfers with email notifications and shareable links to community stations that lack the required infrastructure and tech personnel.",
                 "Programming and maintaining automated Quality Control (QC) & Delivery Workflows (with Dashboards and a GUI app) for shortform content and commercials.",
-                "Developed bespoke QC, transcoding & delivery workflows for SuperSport, DSTV Media Sales, Viacom/Paramount, Discovery and Disney.",
+                "Developed bespoke QC, transcoding & delivery workflows for SuperSport, DSTV Media Sales, Paramount, Discovery and Disney.",
                 "Responsible for liaising with broadcasters and setting up their delivery endpoints to enable delivery of commercials from Adstream and MediaHost.",
                 "Broadcast Technical Support for Adstream's Broadcast Traffic Management system used by Multichoice, eMedia Sales and SABC in South Africa, and Viacom, Discovery, Disney and more internationally.",
                 "Eyes-on (manual) Quality Control and customer Technical Support. Liaised in person, telephonically and via email, with clients, suppliers, internal staff and other Adstream offices globally to offer solutions or suggestions to resolve QC failures.",
@@ -132,21 +157,91 @@
             "Position": "Post Production Operations Manager",
             "Duration": "May 2012 - Dec 2016",
             "Description": "My key role was to oversee Post Production and handle responsibility for all incoming and outgoing media assets. I simplified communication between the Director and Editors and finalized and approved inserts for live broadcasts. I also managed all IT infrastructure on and off site, built and maintained workstations for use by video editors and visual effects creators and occasionally fixed the WiFi.",
-            "Accomplishments": [
-                "Idols SA Season 12 (2016) (Reality Series) [Post Operations]",
-                "Miss South Africa (2016) [Post Operations]",
-                "WBFF (World Beauty Fitness & Fashion) Pilot / POC (2015) [Online Editor]",
-                "Idols SA Season 11 (2015) (Reality Series) [Media Manager/Technical Support/IT/Editor]",
-                "Miss South Africa (2015) [Media Manager/Technical Support/IT]",
-                "Idols SA Season 10 (2014) (Reality Series) [Media Manager/Technical Support/IT/Editor]",
-                "SAMA 20 (2014) (Music Award Show) [Media Manager]",
-                "Africa's Next Top Model Season 1 [Media Manager/Technical Support/IT]",
-                "Idols SA Season 9 (2013) (Reality Series) [Media Manager/Editor/Technical/Support/IT]",
-                "The Incredible Journey (2013) (Documentary) [Assistant Editor]",
-                "SAMAs 2013 (Live Awards Show) [Assistant Editor]",
-                "\"Move\" - The Rise of Khaya Mthethwa (Part 1 - The Homecoming) (2012) (Documentary) [Editor]",
-                "Behind the Scenes - \"The Making of Khaya 'For You'\" (2012) (EPK) [Editor]",
-                "Idols SA Season 8 (2012) (Reality Series) [Media Manager/Technical Support/IT/Editor]"
+            "Projects": [
+                {
+                    "Name": "Idols SA Season 12",
+                    "Year": "2016",
+                    "Type": "Reality Series",
+                    "Roles": ["Post Operations"]
+                },
+                {
+                    "Name": "Miss South Africa",
+                    "Year": "2016",
+                    "Type": "Live Broadcast",
+                    "Roles": ["Post Operations"]
+                },
+                {
+                    "Name": "WBFF (World Beauty Fitness & Fashion) Pilot / POC",
+                    "Year": "2015",
+                    "Type": "Pilot",
+                    "Roles": ["Online Editor"]
+                },
+                {
+                    "Name": "Idols SA Season 11",
+                    "Year": "2015",
+                    "Type": "Reality Series",
+                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                },
+                {
+                    "Name": "Miss South Africa",
+                    "Year": "2015",
+                    "Type": "Live Broadcast",
+                    "Roles": ["Media Manager", "Technical Support", "IT"]
+                },
+                {
+                    "Name": "Idols SA Season 10",
+                    "Year": "2014",
+                    "Type": "Reality Series",
+                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                },
+                {
+                    "Name": "SAMA 20",
+                    "Year": "2014",
+                    "Type": "Music Award Show",
+                    "Roles": ["Media Manager"]
+                },
+                {
+                    "Name": "Africa's Next Top Model Season 1",
+                    "Year": "2014",
+                    "Type": "Reality Series",
+                    "Roles": ["Media Manager", "Technical Support", "IT"]
+                },
+                {
+                    "Name": "Idols SA Season 9",
+                    "Year": "2013",
+                    "Type": "Reality Series",
+                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                },
+                {
+                    "Name": "The Incredible Journey",
+                    "Year": "2013",
+                    "Type": "Documentary",
+                    "Roles": ["Assistant Editor"]
+                },
+                {
+                    "Name": "SAMAs 2013",
+                    "Year": "2013",
+                    "Type": "Music Awards Show",
+                    "Roles": ["Assistant Editor"]
+                },
+                {
+                    "Name": "\"Move\" - The Rise of Khaya Mthethwa (Part 1 - The Homecoming)",
+                    "Year": "2012",
+                    "Type": "Documentary",
+                    "Roles": ["Editor"]
+                },
+                {
+                    "Name": "Behind the Scenes - \"The Making of Khaya 'For You'\"",
+                    "Year": "2012",
+                    "Type": "EPK",
+                    "Roles": ["Editor"]
+                },
+                {
+                    "Name": "Idols SA Season 8",
+                    "Year": "2012",
+                    "Type": "Reality Series",
+                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                }
             ]
         },
         {

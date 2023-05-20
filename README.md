@@ -7,9 +7,7 @@ This app is deployed using Google App Engine.
 ### TODO
 
 - [X] add html bootstrap view
-- [ ] add a PDF Download Option
-- [ ] add a markdown view
-- [ ] add a contact form
+- [X] add a PDF Download Option
 - [ ] add a visit counter
 - [ ] Add a database and migrate json template data
-- [ ] API for updating profile and getting view counts
+- [ ] API for updating profile and getting/resetting view counts

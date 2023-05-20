@@ -2,11 +2,12 @@
     --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
-    --bs-primary: #bd5d38;
     --bs-secondary: #6c757d;
     --bs-link-color: #00ad96;
     --bs-link-hover-color: #00dbbe;
     --bs-icon-font-color: #00ffdd;
+    --dark-headings: #343a40;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,64 +33,90 @@ h1,
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     line-height: 1.2;
-    color: #343a40;
+    color: var(--dark-headings);
 }
 
-h1, .h1 {
+h1,
+.h1 {
     font-size: calc(1.725rem + 5.7vw);
-  }
-  @media (min-width: 1200px) {
-    h1, .h1 {
-      font-size: 6rem;
+}
+
+@media (min-width: 1200px) {
+
+    h1,
+    .h1 {
+        font-size: 6rem;
     }
-  }
-  
-  h2, .h2 {
+}
+
+h2,
+.h2 {
     font-size: calc(1.475rem + 2.7vw);
-  }
-  @media (min-width: 1200px) {
-    h2, .h2 {
-      font-size: 3.5rem;
+}
+
+@media (min-width: 1200px) {
+
+    h2,
+    .h2 {
+        font-size: 3.5rem;
     }
-  }
-  
-  h3, .h3 {
+}
+
+h3,
+.h3 {
     font-size: calc(1.325rem + 0.9vw);
-  }
-  @media (min-width: 1200px) {
-    h3, .h3 {
-      font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+
+    h3,
+    .h3 {
+        font-size: 2rem;
     }
-  }
-  
-  h4, .h4 {
+}
+
+h4,
+.h4 {
     font-size: calc(1.275rem + 0.3vw);
-  }
-  @media (min-width: 1200px) {
-    h4, .h4 {
-      font-size: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+
+    h4,
+    .h4 {
+        font-size: 1.5rem;
     }
-  }
-  
-  h5, .h5 {
+}
+
+h5,
+.h5 {
     font-size: 1.25rem;
-  }
-  
-  h6, .h6 {
+}
+
+h6,
+.h6 {
     font-size: 1rem;
-  }
-  
-  p {
+}
+
+p {
     margin-top: 0;
     margin-bottom: 1rem;
-  }
+}
+
+.line-spacing {
+    margin-bottom: 0.6rem;
+}
+
+.para-spacing {
+    margin-bottom: 1rem;
+}
 
 body {
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     padding-top: 3.375rem;
-    color: #6c757d;
+    color: var(--bs-secondary);
 }
 
 @media (min-width: 992px) {
@@ -122,6 +149,21 @@ a {
 h1,
 .h1 {
     line-height: 1;
+}
+
+.custom-card {
+    border: none;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+.group-list-inline-item {
+    display: inline-block;
+    justify-items: end;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 p.lead {
@@ -172,9 +214,10 @@ p.lead {
     }
 
     #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+        max-width: 12rem;
+        max-height: 12rem;
+        border: 0.3rem solid rgba(255, 255, 255, 0.2);
+        /* border: 0.3rem solid var(--bs-link-color); */
     }
 
     #sideNav .navbar-collapse {
@@ -241,7 +284,42 @@ p.lead {
 }
 
 .dev-icons {
-    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+    padding: 0;
+    /* font-size: 3rem; */
+    margin-bottom: 5rem;
+}
+
+.dev-icons li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.dev-icons img {
+    width: 60px;
+    height: 60px;
+}
+
+.dev-icons-lrg img {
+    width: 90px;
+    height: 90px;
+}
+
+.dev-icons-sml img {
+    width: 40px;
+    height: 40px;
+}
+
+.dev-text {
+    display: none;
+    /* Hide the text list by default */
+}
+
+.dev-text li {
+    margin-bottom: 5px;
 }
 
 section.resume-section {

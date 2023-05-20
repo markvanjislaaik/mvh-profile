@@ -1,10 +1,28 @@
 <section class="resume-section" id="interests">
     <div class="resume-section-content">
         <h2 class="mb-5">Interests</h2>
-        <ul>
-        {% for interest in Interests %}
-            <li>{{ interest }}</li>
-        {% endfor %}
-    </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    {% for interest in Interests1 %}
+                    <li>{{ interest }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    {% for interest in Interests2 %}
+                    <li>{{ interest }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    {% for interest in Interests3 %}
+                    <li>{{ interest }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </section>

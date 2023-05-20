@@ -1,21 +1,114 @@
 <section class="resume-section" id="skills">
     <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3">Programming Languages & Tools</div>
-        <ul class="list-inline dev-icons">
-            {% for skill in TechSkills %}
-                <li class="list-inline-item"><img src="{{ skill.SvgUrl }}" title="{{ skill.Name }}" alt="{{ skill.Name }}" width="60" height="60"/></li>
+        <h2 class="mb-3 text-center">Skills</h2>
+
+        <div class="mb-5 text-center">
+            {% for s in SkillsOverview %}
+            <p style="margin-bottom: 0.3rem;">{{ s }}</p>
             {% endfor %}
-        </ul>
-        
-        <div class="subheading mb-3">Core</div>
-        <ul class="fa-ul mb-0">
-            {% for skill in CoreSkills %}
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    {{ skill }}
+        </div>
+
+        <div class="row">
+            <div class="col d-flex flex-column align-items-start">
+                <h3 class="subheading mb-3">Programming Languages</h3>
+                <ul class="list-inline dev-icons">
+                    {% for skill in TechSkillsLangs %}
+                    <li class="list-inline-item">
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col d-flex flex-column align-items-end">
+                <h3 class="subheading mb-3">Databases</h3>
+                <ul class="list-inline dev-icons">
+                    {% for skill in TechSkillsDB %}
+                    <li class="list-inline-item">
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex flex-column align-items-start">
+                <h3 class="subheading mb-3">Frameworks</h3>
+                <ul class="list-inline dev-icons">
+                    {% for skill in TechSkillsFrameWorks %}
+                    <li class="list-inline-item">
+                        {% if "streamlit-logo" not in skill.SvgPath %}
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                        {% else %}
+                        <img src="{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}" />
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <h3 class="subheading mb-3">Source Control</h3>
+                <ul class="list-inline dev-icons">
+                    {% for skill in TechSkillsGit %}
+                    <li class="list-inline-item">
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col d-flex flex-column align-items-end">
+                <h3 class="subheading mb-3">Cloud</h3>
+                <ul class="list-inline dev-icons-lrg">
+                    {% for skill in TechSkillsCloud %}
+                    <li class="list-inline-item">
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="col d-flex flex-column align-items-center">
+            <h3 class="subheading mb-3">Tools</h3>
+            <ul class="list-inline dev-icons">
+                {% for skill in TechSkillsTools %}
+                <li class="list-inline-item">
+                    {% if "upload.wikimedia" not in skill.SvgPath %}
+                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    {% else %}
+                        <img src="{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    {% endif %}
                 </li>
-            {% endfor %}
-        </ul>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="subheading mb-3">Core Skills</h3>
+                <ul class="fa-ul mb-0">
+                    {% for skill in CoreSkills %}
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        {{ skill }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3 class="subheading mb-3">What I'll Bring</h3>
+                <ul class="fa-ul mb-0">
+                    {% for skill in WhatIBring %}
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        {{ skill }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
