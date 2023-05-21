@@ -12,4 +12,8 @@ def index():
 
 @app.route('/download_pdf')
 def download_pdf():
-    return send_from_directory('static/', 'pdf/Mark van Heeswijk CV - Python Developer 2023.pdf', as_attachment=True)
+    return send_from_directory(
+        'static/',
+        'pdf/Mark van Heeswijk CV - Python Developer 2023.pdf',
+        # as_attachment=True
+    )

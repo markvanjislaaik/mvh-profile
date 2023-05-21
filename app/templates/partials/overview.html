@@ -10,18 +10,17 @@
         <div class="subheading mb-5">
             {{ Location }}
             <br>{{ Phone }}
-            <!-- <br><a href="mailto:{{ Email }}">{{ Email }}</a> | <a class="download-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down"></i></a> -->
         </div>
 
-        <p class="lead mb-5">{{ TagLine }}</p>
+        <p class="lead mb-5">{{ ShortBio }}</p>
 
         <div class="social-icons">
-            <a class="social-icon" href="{{ Socials.LinkedIn }}"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="{{ Socials.GitHub }}"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="{{ Socials.Twitter }}"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="{{ Socials.Facebook }}"><i class="fab fa-facebook-f"></i></a>
-            <a class="social-icon" href="{{ url_for('download_pdf') }}"><i class="fa-solid fa-file-arrow-down">Download CV</i></a>
-            <!-- <a class="social-icon" href="{{ Socials.Instagram }}"><i class="fab fa-instagram"></i></a> -->
+            <a class="social-icon" href="{{ Socials.LinkedIn }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="{{ Socials.GitHub }}" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="{{ Socials.Twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="{{ Socials.Facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="{{ url_for('download_pdf') }}" target="_blank"><i
+                    class="fa-solid fa-file-arrow-down">Download CV</i></a>
         </div>
 
     </div>

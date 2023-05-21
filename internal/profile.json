@@ -1,6 +1,5 @@
 {
-    "PageTitle": "Mark van Heeswijk - Curriculum Vitae",
-    "Name": "Mark van Heeswijk",
+    "PageTitle": "Mark van Heeswijk - CV",
     "NameFirst": "Mark",
     "NameLast": "van Heeswijk",
     "Title": "Python Developer",
@@ -9,15 +8,15 @@
     "Location": "Johannesburg, ZA | Remote",
     "CurrentPosition": "Software Developer",
     "ProfilePhotoSrc": "./static/images/profile-photo.jpg",
-    "Companies": ["Media Host PTY Ltd."],
     "Socials": {
-            "LinkedIn": "https://www.linkedin.com/in/mark-van-heeswijk-0a52a41b/",
-            "GitHub": "https://github.com/markvanjislaaik",
-            "Twitter": "https://twitter.com/JislaaikVan",
-            "Facebook": "https://www.facebook.com/markvanjislaaik",
-            "Instagram": "#!"
+        "LinkedIn": "https://www.linkedin.com/in/mark-van-heeswijk-0a52a41b/",
+        "GitHub": "https://github.com/markvanjislaaik",
+        "Twitter": "https://twitter.com/JislaaikVan",
+        "Facebook": "https://www.facebook.com/markvanjislaaik",
+        "Instagram": "#!"
     },
     "TagLine": "A passionate tinkerer with a positive \"can-do\" attitude.",
+    "ShortBio": "A python software developer with over 6 years experience in building software, automated workflows and REST APIs for the media industry. I'm a fast learning and modest self-starter who is eager to get involved with various technologies that will enable me to contribute to other areas such as DevOps, Frontend Development, Data Science and Full Stack.",
     "AboutMe": [
         "As a self-taught programmer with over 6 years of professional experience, I got my start in the industry by automating basic file operations for a television production company.",
         "Since then, as a passionate tinkerer with a positive \"can-do\" attitude, I've worked on a variety of projects including audio fingerprinting and detection for radio and TV stations, image recognition for finding logos and patterns on live TV to most recently identifying and fulfilling a critical business need within our organization to develop and maintain our own file upload portal. This allowed the business to cut costs dramatically for the submission of Radio & TV adverts to local broadcasters.",
@@ -54,45 +53,132 @@
     ],
     "SvgBaseUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/",
     "TechSkillsLangs": [
-        {"SvgPath": "python/python-original-wordmark.svg", "Name": "Python"},
-        {"SvgPath": "html5/html5-original-wordmark.svg", "Name": "HTML5"},
-        {"SvgPath": "markdown/markdown-original.svg", "Name": "Markdown"},
-        {"SvgPath": "bootstrap/bootstrap-original-wordmark.svg", "Name": "Bootstrap"},
-        {"SvgPath": "javascript/javascript-original.svg", "Name": "JavaScript"},
-        {"SvgPath": "csharp/csharp-line.svg", "Name": "C#"}
+        {
+            "SvgPath": "python/python-original-wordmark.svg",
+            "Name": "Python"
+        },
+        {
+            "SvgPath": "html5/html5-original-wordmark.svg",
+            "Name": "HTML5"
+        },
+        {
+            "SvgPath": "markdown/markdown-original.svg",
+            "Name": "Markdown"
+        },
+        {
+            "SvgPath": "bootstrap/bootstrap-original-wordmark.svg",
+            "Name": "Bootstrap"
+        },
+        {
+            "SvgPath": "javascript/javascript-original.svg",
+            "Name": "JavaScript"
+        },
+        {
+            "SvgPath": "csharp/csharp-line.svg",
+            "Name": "C#"
+        }
     ],
     "TechSkillsDB": [
-        {"SvgPath": "mysql/mysql-original-wordmark.svg", "Name": "MySQL"},
-        {"SvgPath": "mongodb/mongodb-original-wordmark.svg", "Name": "MongoDB"},
-        {"SvgPath": "sqlalchemy/sqlalchemy-original-wordmark.svg", "Name": "SQL Alchemy"},
-        {"SvgPath": "sqlite/sqlite-original-wordmark.svg", "Name": "SQLite"},
-        {"SvgPath": "pandas/pandas-original-wordmark.svg", "Name": "Pandas"}
+        {
+            "SvgPath": "mysql/mysql-original-wordmark.svg",
+            "Name": "MySQL"
+        },
+        {
+            "SvgPath": "mongodb/mongodb-original-wordmark.svg",
+            "Name": "MongoDB"
+        },
+        {
+            "SvgPath": "sqlalchemy/sqlalchemy-original-wordmark.svg",
+            "Name": "SQL Alchemy"
+        },
+        {
+            "SvgPath": "sqlite/sqlite-original-wordmark.svg",
+            "Name": "SQLite"
+        },
+        {
+            "SvgPath": "pandas/pandas-original-wordmark.svg",
+            "Name": "Pandas"
+        }
     ],
     "TechSkillsFrameWorks": [
-        {"SvgPath": "django/django-plain-wordmark.svg", "Name": "Django"},
-        {"SvgPath": "flask/flask-original-wordmark.svg", "Name": "Flask"},
-        {"SvgPath": "selenium/selenium-original.svg", "Name": "Selenium"},
-        {"SvgPath": "./static/icons/streamlit-logo-primary-colormark-darktext.svg", "Name": "Streamlit"}
+        {
+            "SvgPath": "django/django-plain-wordmark.svg",
+            "Name": "Django"
+        },
+        {
+            "SvgPath": "flask/flask-original-wordmark.svg",
+            "Name": "Flask"
+        },
+        {
+            "SvgPath": "selenium/selenium-original.svg",
+            "Name": "Selenium"
+        },
+        {
+            "SvgPath": "./static/icons/streamlit-logo-primary-colormark-darktext.svg",
+            "Name": "Streamlit"
+        }
     ],
     "TechSkillsGit": [
-        {"SvgPath": "git/git-original.svg", "Name": "Git"},
-        {"SvgPath": "github/github-original-wordmark.svg", "Name": "Github"},
-        {"SvgPath": "bitbucket/bitbucket-original-wordmark.svg", "Name": "Bit Bucket"}
+        {
+            "SvgPath": "git/git-original.svg",
+            "Name": "Git"
+        },
+        {
+            "SvgPath": "github/github-original-wordmark.svg",
+            "Name": "Github"
+        },
+        {
+            "SvgPath": "bitbucket/bitbucket-original-wordmark.svg",
+            "Name": "Bit Bucket"
+        }
     ],
     "TechSkillsCloud": [
-        {"SvgPath": "amazonwebservices/amazonwebservices-plain-wordmark.svg", "Name": "AWS"},
-        {"SvgPath": "googlecloud/googlecloud-original-wordmark.svg", "Name": "Google Cloud"}
+        {
+            "SvgPath": "amazonwebservices/amazonwebservices-plain-wordmark.svg",
+            "Name": "AWS"
+        },
+        {
+            "SvgPath": "googlecloud/googlecloud-original-wordmark.svg",
+            "Name": "Google Cloud"
+        }
     ],
     "TechSkillsTools": [
-        {"SvgPath": "linux/linux-original.svg", "Name": "Linux"},
-        {"SvgPath": "ubuntu/ubuntu-plain-wordmark.svg", "Name": "Ubuntu Linux"},
-        {"SvgPath": "bash/bash-original.svg", "Name": "Bash"},
-        {"SvgPath": "docker/docker-original-wordmark.svg", "Name": "Docker"},
-        {"SvgPath": "ssh/ssh-original-wordmark.svg", "Name": "SSH"},
-        {"SvgPath": "opencv/opencv-original-wordmark.svg", "Name": "OpenCV"},
-        {"SvgPath": "vscode/vscode-original-wordmark.svg", "Name": "VS Code"},
-        {"SvgPath": "visualstudio/visualstudio-plain.svg", "Name": "Visual Studio"},
-        {"SvgPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/FFmpeg_icon.svg/64px-FFmpeg_icon.svg.png?20130721172940", "Name": "FFmpeg"}
+        {
+            "SvgPath": "linux/linux-original.svg",
+            "Name": "Linux"
+        },
+        {
+            "SvgPath": "ubuntu/ubuntu-plain-wordmark.svg",
+            "Name": "Ubuntu Linux"
+        },
+        {
+            "SvgPath": "bash/bash-original.svg",
+            "Name": "Bash"
+        },
+        {
+            "SvgPath": "docker/docker-original-wordmark.svg",
+            "Name": "Docker"
+        },
+        {
+            "SvgPath": "ssh/ssh-original-wordmark.svg",
+            "Name": "SSH"
+        },
+        {
+            "SvgPath": "opencv/opencv-original-wordmark.svg",
+            "Name": "OpenCV"
+        },
+        {
+            "SvgPath": "vscode/vscode-original-wordmark.svg",
+            "Name": "VS Code"
+        },
+        {
+            "SvgPath": "visualstudio/visualstudio-plain.svg",
+            "Name": "Visual Studio"
+        },
+        {
+            "SvgPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/FFmpeg_icon.svg/64px-FFmpeg_icon.svg.png?20130721172940",
+            "Name": "FFmpeg"
+        }
     ],
     "CoreSkills": [
         "Clear & Effective Communication",
@@ -162,85 +248,129 @@
                     "Name": "Idols SA Season 12",
                     "Year": "2016",
                     "Type": "Reality Series",
-                    "Roles": ["Post Operations"]
+                    "Roles": [
+                        "Post Operations"
+                    ]
                 },
                 {
                     "Name": "Miss South Africa",
                     "Year": "2016",
                     "Type": "Live Broadcast",
-                    "Roles": ["Post Operations"]
+                    "Roles": [
+                        "Post Operations"
+                    ]
                 },
                 {
                     "Name": "WBFF (World Beauty Fitness & Fashion) Pilot / POC",
                     "Year": "2015",
                     "Type": "Pilot",
-                    "Roles": ["Online Editor"]
+                    "Roles": [
+                        "Online Editor"
+                    ]
                 },
                 {
                     "Name": "Idols SA Season 11",
                     "Year": "2015",
                     "Type": "Reality Series",
-                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT",
+                        "Editor"
+                    ]
                 },
                 {
                     "Name": "Miss South Africa",
                     "Year": "2015",
                     "Type": "Live Broadcast",
-                    "Roles": ["Media Manager", "Technical Support", "IT"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT"
+                    ]
                 },
                 {
                     "Name": "Idols SA Season 10",
                     "Year": "2014",
                     "Type": "Reality Series",
-                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT",
+                        "Editor"
+                    ]
                 },
                 {
                     "Name": "SAMA 20",
                     "Year": "2014",
                     "Type": "Music Award Show",
-                    "Roles": ["Media Manager"]
+                    "Roles": [
+                        "Media Manager"
+                    ]
                 },
                 {
                     "Name": "Africa's Next Top Model Season 1",
                     "Year": "2014",
                     "Type": "Reality Series",
-                    "Roles": ["Media Manager", "Technical Support", "IT"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT"
+                    ]
                 },
                 {
                     "Name": "Idols SA Season 9",
                     "Year": "2013",
                     "Type": "Reality Series",
-                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT",
+                        "Editor"
+                    ]
                 },
                 {
                     "Name": "The Incredible Journey",
                     "Year": "2013",
                     "Type": "Documentary",
-                    "Roles": ["Assistant Editor"]
+                    "Roles": [
+                        "Assistant Editor"
+                    ]
                 },
                 {
                     "Name": "SAMAs 2013",
                     "Year": "2013",
                     "Type": "Music Awards Show",
-                    "Roles": ["Assistant Editor"]
+                    "Roles": [
+                        "Assistant Editor"
+                    ]
                 },
                 {
                     "Name": "\"Move\" - The Rise of Khaya Mthethwa (Part 1 - The Homecoming)",
                     "Year": "2012",
                     "Type": "Documentary",
-                    "Roles": ["Editor"]
+                    "Roles": [
+                        "Editor"
+                    ]
                 },
                 {
                     "Name": "Behind the Scenes - \"The Making of Khaya 'For You'\"",
                     "Year": "2012",
                     "Type": "EPK",
-                    "Roles": ["Editor"]
+                    "Roles": [
+                        "Editor"
+                    ]
                 },
                 {
                     "Name": "Idols SA Season 8",
                     "Year": "2012",
                     "Type": "Reality Series",
-                    "Roles": ["Media Manager", "Technical Support", "IT", "Editor"]
+                    "Roles": [
+                        "Media Manager",
+                        "Technical Support",
+                        "IT",
+                        "Editor"
+                    ]
                 }
             ]
         },
@@ -251,6 +381,37 @@
             "Duration": "March 2011- April 2012",
             "Description": "As part of a team of video editors we'd often share work and take turns logging, refining selections and editing promos and corporate videos for various clients in the marketing and broadcasting spaces.",
             "Accomplishments": []
+        }
+    ],
+    "PortfolioOverview": "Screenshots of some of the apps I've created. Most of these are for internal use only.",
+    "Portfolio": [
+        {
+            "index": 0,
+            "Name": "File Upload Portals",
+            "ImageURL": "./static/images/workhist/MH-Portals.png",
+            "Description": "Where advertisers and agencies can submit files for delivery to broadcasters.",
+            "Tools": "Python, Django, MySQL, Bootstrap & CSS"
+        },
+        {
+            "index": 1,
+            "Name": "Top Detections Charts",
+            "ImageURL": "./static/images/workhist/streamlit top detections dash.png",
+            "Description": "For our internal team to use for sales and marketing purposes and to compare against other platforms that claim better detection rates.",
+            "Tools": "Python, Streamlit, Pandas, MySQL & PlotlyExpress"
+        },
+        {
+            "index": 2,
+            "Name": "Ingest Overview Dashboard",
+            "ImageURL": "./static/images/workhist/Ingest Overview Dash.png",
+            "Description": "For our internal traffic & ingest team to keep track of incoming and processed files.",
+            "Tools": "Python, Django, MySQL & Bootstrap"
+        },
+        {
+            "index": 3,
+            "Name": "Streams Monitor Dashboard",
+            "ImageURL": "./static/images/workhist/Unreachable streams dash.png",
+            "Description": "For our IT department to track and act upon problematic stream recordings.",
+            "Tools": "Python, Flask, Jinja2 Templates"
         }
     ]
 }

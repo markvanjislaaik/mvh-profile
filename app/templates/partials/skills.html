@@ -76,9 +76,9 @@
                 {% for skill in TechSkillsTools %}
                 <li class="list-inline-item">
                     {% if "upload.wikimedia" not in skill.SvgPath %}
-                        <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    <img src="{{SvgBaseUrl}}{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
                     {% else %}
-                        <img src="{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
+                    <img src="{{ skill.SvgPath }}" title="{{ skill.Name }}" alt="{{ skill.Name }}">
                     {% endif %}
                 </li>
                 {% endfor %}

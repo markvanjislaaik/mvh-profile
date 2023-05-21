@@ -350,3 +350,36 @@ section.resume-section .resume-section-content {
         padding-bottom: 5rem;
     }
 }
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    position: absolute;
+    margin-bottom: -1rem;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: drop-shadow(1px 1px 3px #000000);
+}
