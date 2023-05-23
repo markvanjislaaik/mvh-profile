@@ -7,7 +7,6 @@
     --bs-link-hover-color: #00dbbe;
     --bs-icon-font-color: #00ffdd;
     --dark-headings: #343a40;
-
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -217,7 +216,6 @@ p.lead {
         max-width: 12rem;
         max-height: 12rem;
         border: 0.3rem solid rgba(255, 255, 255, 0.2);
-        /* border: 0.3rem solid var(--bs-link-color); */
     }
 
     #sideNav .navbar-collapse {
@@ -289,7 +287,6 @@ p.lead {
     justify-content: left;
     list-style: none;
     padding: 0;
-    /* font-size: 3rem; */
     margin-bottom: 5rem;
 }
 
@@ -315,7 +312,6 @@ p.lead {
 
 .dev-text {
     display: none;
-    /* Hide the text list by default */
 }
 
 .dev-text li {
