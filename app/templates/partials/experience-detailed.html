@@ -4,8 +4,8 @@
         {% for exp in WorkExperience %}
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">{{ exp.Position }}</h3>
-                <div class="subheading mb-3">{{ exp.Company }} | <span>{{ exp.Duration }}</span> </div>
+                <h3 class="mb-0">{{ exp.Company }}<span><a href="{{ exp.CompanyWebsite }}"><sup><i class="fa fa-link"></i></sup></a></span></h3>
+                <div class="subheading mb-3">{{ exp.Position }} | <span>{{ exp.Duration }}</span> </div>
                 <p class="mb-0">{{ exp.Description }}</p>
                 <br>
                 {% if exp.Accomplishments %}
@@ -28,7 +28,6 @@
                                 <li class="card-text">{{ role }}</li>
                                 {% endfor %}
                             </ul>
-
                         </div>
                     </div>
 
