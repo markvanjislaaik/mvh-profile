@@ -16,3 +16,4 @@ I chose to use the Flask framework with which I'm used to spinning up sites and 
 - [ ] Use url appended tokens to reveal contact information rather than display it publicly.
 - [ ] Take a better profile picture?
 - [ ] Add more work to the portfolio section
+- [ ] Make a TL;DR Resume version with it's own download option
